@@ -182,3 +182,12 @@ a{
 .action-secondary{
     font-size: 18px;
 }
+
+.section-five{
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
