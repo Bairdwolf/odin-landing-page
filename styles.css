@@ -2,6 +2,11 @@
     font-family: Roboto;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .section-one{
     display: flex;
     flex-direction: column;
@@ -74,8 +79,53 @@ a{
 }
 
 
-img{
+.truck{
     height: 400px;
     width: 600px;
     margin-left: auto;
+}
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 200px;
+}
+
+.info-header{
+    padding-top: 82px;
+    padding-bottom: 82px;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.cards{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card{
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    gap: 18px;
+    align-items: center;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border-color: blue;
+    border-width: 6px;
 }
