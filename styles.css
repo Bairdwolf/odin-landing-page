@@ -151,3 +151,34 @@ a{
     font-size: 24px;
     font-weight: bold;
 }
+
+.action-box{
+    margin: 150px;
+    padding: 80px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+
+.action-button{
+    width: 200px;
+    background-color: #3882f6;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.action-primary{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.action-secondary{
+    font-size: 18px;
+}
