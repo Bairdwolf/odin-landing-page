@@ -5,6 +5,8 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 18px;
 }
 
 .section-one{
@@ -90,7 +92,6 @@ a{
     flex-direction: column;
     padding-left: 250px;
     padding-right: 250px;
-    padding-bottom: 200px;
 }
 
 .info-header{
@@ -111,6 +112,7 @@ a{
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
+    padding-bottom: 200px;
 }
 
 .card{
@@ -128,4 +130,24 @@ a{
     border-radius: 8px;
     border-color: blue;
     border-width: 6px;
+}
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 200px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name{
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
 }
